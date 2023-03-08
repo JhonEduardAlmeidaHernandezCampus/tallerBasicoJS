@@ -1,13 +1,10 @@
-/* Metodo replace */
+/* Metodo slice */
 
-// devuelve una nueva cadena con algunas o todas las coincidencias de un patrón, 
-// siendo cada una de estas coincidencias reemplazadas por remplazo. 
+// extrae una sección de una cadena y devuelve una cadena nueva.
+// elimina los valores que se le den
 
-// reemplaza el 2do valor que se le de 
-
-let repetir1 = 'The quick brown fox jumps over the lazy dog. If the dog reacted, was it really lazy?';
+let repetir1 = "La mañana se nos echa encima.";
+let repetir2 = repetir1.slice(3, -7); // La mañana se nos echa
 
 console.log(repetir1);
-
-console.log(repetir1.replace('dog', 'MONKEY'));
-// Expected output: "The quick brown fox jumps over the lazy MONKEY. If the dog reacted, was it really lazy?"
+console.log(repetir2);
