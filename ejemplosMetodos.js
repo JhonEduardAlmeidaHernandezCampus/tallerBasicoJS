@@ -7,4 +7,4 @@ let repetir1 = "La mañana se nos echa encima.";
 let repetir2 = repetir1.slice(3, -7); // La mañana se nos echa
 
 console.log(repetir1);
-console.log(repetir2);
+console.log(repetir2); 
